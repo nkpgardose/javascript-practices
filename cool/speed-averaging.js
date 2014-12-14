@@ -1,9 +1,4 @@
-var rightNow = +new Date();
-var endTime = +new Date();
-var elapseTime = endTime - rightNow;
-console.log(elapseTime);
-
-/*
+/* Implement SpeedTest using new command. Measure average speed of an code.
  * @testImplement - snippet of code we want to test for performance speed.
  * @tesParams 		- parameters needed by the testImplement.
  * @repetitions		- looping the testImplement, higher the reps, the more reliable
@@ -30,4 +25,4 @@ SpeedTest.prototype = {
 		return console.log("Average execution across " +
 			x + ": " + this.average);
 	}
-}
+};
