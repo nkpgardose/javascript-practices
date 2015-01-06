@@ -1,9 +1,9 @@
 var factorial = function fac(value) {
-	return value < 2 ? 1 : value * fac(value - 1);
-	// if ((value === 0) || (value === 1))
-	// 	return 1;
-	// else
-	// 	return (value * fac(value - 1));
+  return value < 2 ? 1 : value * fac(value - 1);
+  // if ((value === 0) || (value === 1))
+  //  return 1;
+  // else
+  //  return (value * fac(value - 1));
 }
 
 console.time('factorial time');

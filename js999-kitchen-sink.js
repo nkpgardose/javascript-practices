@@ -20,11 +20,11 @@ var isEating = false;
 
 // Object literals
 var userProfile = {
-	name: 'Neil',
-	age: 22,
-	gender: 'male',
-	isCoding: true,
-	isEating: false
+  name: 'Neil',
+  age: 22,
+  gender: 'male',
+  isCoding: true,
+  isEating: false
 };
 
 console.log('He is ' + userProfile.name + ', ' + userProfile.age + 'yrs old');
@@ -78,7 +78,7 @@ console.log(5 !== 3);
 
 // Bitwise operators
 var a = 4,
-	b; // b is undefined
+  b; // b is undefined
 
 console.log(a | b);
 console.log(b | a);
@@ -113,3 +113,8 @@ var o7 = "Cat" || false; // t || f returns Cat
 var n1 = !true; // !t returns false
 var n2 = !false; // !f returns true
 var n3 = !"Cat"; // !t returns false
+
+console.log(document.getElementById('rak').className);
+console.log(typeof define);
+console.log(typeof exports);
+console.log(window);
